@@ -1,0 +1,113 @@
+https://eos-baterias.github.io
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EOS Baterias 24 Horas | Salvador - BA</title>
+  <meta name="description" content="EOS Baterias 24 Horas em Salvador - BA. Venda, instalação e socorro rápido de baterias automotivas." />
+  <style>
+    body { margin:0; font-family: Arial, Helvetica, sans-serif; background:#f5f7fa; color:#1f2937; }
+    header { background: linear-gradient(90deg,#0b4aa2,#facc15,#f97316); color:#fff; padding:24px; }
+    header h1 { margin:0; font-size:32px; }
+    header p { margin:8px 0 0; font-size:18px; }
+    nav { background:#0b4aa2; padding:12px; text-align:center; }
+    nav a { color:#fff; margin:0 12px; text-decoration:none; font-weight:bold; }
+    .container { max-width:1100px; margin:auto; padding:32px 16px; }
+    .hero { display:grid; grid-template-columns:1fr 1fr; gap:24px; align-items:center; }
+    .hero h2 { font-size:36px; margin-bottom:16px; }
+    .hero p { font-size:18px; line-height:1.5; }
+    .btn { display:inline-block; background:#22c55e; color:#fff; padding:14px 22px; border-radius:8px; text-decoration:none; font-weight:bold; margin-top:16px; }
+    .services { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:20px; margin-top:40px; }
+    .card { background:#fff; border-radius:16px; padding:24px; box-shadow:0 6px 16px rgba(0,0,0,.08); }
+    .card h3 { margin-top:0; color:#0b4aa2; }
+    footer { background:#111827; color:#e5e7eb; padding:24px; text-align:center; margin-top:40px; }
+
+    /* Botão WhatsApp flutuante */
+    .whatsapp-fixo {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: #fff;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      text-decoration: none;
+      box-shadow: 0 0 0 rgba(37, 211, 102, 0.7);
+      animation: pulse 1.5s infinite;
+      z-index: 1000;
+    }
+
+    .whatsapp-fixo:hover { transform: scale(1.1); }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+      70% { box-shadow: 0 0 0 20px rgba(37, 211, 102, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+    }
+
+    @media (max-width:800px){ .hero { grid-template-columns:1fr; } header h1 { font-size:26px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EOS Baterias 24 Horas</h1>
+    <p>Atendimento rápido em Salvador – BA e região</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="inicio" class="container hero">
+    <div>
+      <h2>Pane elétrica em Salvador?</h2>
+      <p>Venda, instalação e socorro de baterias automotivas 24 horas em <strong>Salvador – BA</strong>. Atendemos carros, motos, caminhonetes e frotas com rapidez e garantia.</p>
+      <a class="btn" href="tel:+5571982310284">📞 Ligar agora</a>
+    </div>
+    <div class="card">
+      <h3>Por que escolher a EOS?</h3>
+      <ul>
+        <li>⚡ Atendimento 24 horas em Salvador</li>
+        <li>🚗 Instalação no local</li>
+        <li>🛡️ Baterias com garantia</li>
+        <li>📍 Atendimento rápido em toda Salvador</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="servicos" class="container">
+    <h2>Serviços em Salvador – BA</h2>
+    <div class="services">
+      <div class="card"><h3>Baterias Automotivas</h3><p>Baterias novas para carros nacionais e importados em Salvador.</p></div>
+      <div class="card"><h3>Socorro 24h</h3><p>Atendimento emergencial 24 horas em Salvador – BA.</p></div>
+      <div class="card"><h3>Instalação no Local</h3><p>Instalação rápida e segura onde você estiver em Salvador.</p></div>
+      <div class="card"><h3>Frotas</h3><p>Planos especiais para empresas e frotas em Salvador.</p></div>
+    </div>
+  </section>
+
+  <section id="contato" class="container">
+    <h2>Contato</h2>
+    <p><strong>Telefone:</strong> (71) 98231-0284</p>
+    <p><strong>WhatsApp:</strong> (71) 98231-0284</p>
+    <p><strong>Atendimento:</strong> 24 horas</p>
+    <p><strong>Cidade:</strong> Salvador – BA</p>
+  </section>
+
+  <footer>
+    <p>© 2026 EOS Baterias 24 Horas – Salvador BA – Todos os direitos reservados</p>
+  </footer>
+
+  <!-- Botão WhatsApp -->
+  <a class="whatsapp-fixo" href="https://wa.me/5571982310284" target="_blank" aria-label="WhatsApp">
+    💬
+  </a>
+</body>
+</html>
